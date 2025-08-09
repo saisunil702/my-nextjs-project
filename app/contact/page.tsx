@@ -167,7 +167,7 @@ export default function Contact() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <form onSubmit={handleSubmit} className="space-y-6">
+                <form action="https://formspree.io/f/movlyego" method="POST" className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
                       <div>
                         <Label htmlFor="name" className="text-sm font-medium text-gray-700">Full Name *</Label>
